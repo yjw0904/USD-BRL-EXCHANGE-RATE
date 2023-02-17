@@ -14,8 +14,3 @@ test('renders react logo', () => {
   expect(imgElement).toBeInTheDocument();
 });
 
-// test('renders prompt to user', () => {
-//   render(<App />);
-//   const pElement = screen.getByText((_content, node) => /^edit src\/app\.tsx and save to reload.$/i.test(Node.textContent));
-//   expect(pElement).toBeInTheDocument();
-// })
